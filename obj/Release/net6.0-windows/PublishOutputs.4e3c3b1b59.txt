@@ -1,0 +1,5 @@
+C:\Users\chazp\source\repos\DivotDerbyLeaderboard\bin\Release\net6.0-windows\publish\DivotDerbyLeaderboard.exe
+C:\Users\chazp\source\repos\DivotDerbyLeaderboard\bin\Release\net6.0-windows\publish\DivotDerbyLeaderboard.dll
+C:\Users\chazp\source\repos\DivotDerbyLeaderboard\bin\Release\net6.0-windows\publish\DivotDerbyLeaderboard.deps.json
+C:\Users\chazp\source\repos\DivotDerbyLeaderboard\bin\Release\net6.0-windows\publish\DivotDerbyLeaderboard.runtimeconfig.json
+C:\Users\chazp\source\repos\DivotDerbyLeaderboard\bin\Release\net6.0-windows\publish\DivotDerbyLeaderboard.pdb
