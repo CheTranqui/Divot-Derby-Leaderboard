@@ -12,10 +12,12 @@ namespace DivotDerbyLeaderboard
         bool isBoardShowingToday = true;
         int overallPageCount = 0;
         private bool isWinnerCrowned = false;
+        string version = "1.10";
 
         public FormDivotDerbyLeaderboard()
         {
             InitializeComponent();
+            updateTitleToIncludeVersion(version);
             GetChampionLabels();
             GetWinLabels();
             LoadSaved();
@@ -525,6 +527,11 @@ namespace DivotDerbyLeaderboard
             {
                 File.Copy("DivotDerbyLeaderboardToday.txt", "DivotDerbyLeaderboardTodayBackup.txt", true);
             }
+        }
+
+        private void updateTitleToIncludeVersion(string version)
+        {
+            this.Text = String.Format("{0}  v{1}", this.Text, version);
         }
     }
 
